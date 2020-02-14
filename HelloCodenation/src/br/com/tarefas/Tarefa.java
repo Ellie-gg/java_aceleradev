@@ -12,4 +12,8 @@ public class Tarefa {
         System.out.println(descricao);
     }
 
+    public int obterTamanhoTarefa(){
+        return descricao.length();
+    }
+
 }

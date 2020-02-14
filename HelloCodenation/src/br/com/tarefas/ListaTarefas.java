@@ -7,7 +7,11 @@ public class ListaTarefas {
     ArrayList<Tarefa> tarefas = new ArrayList<>();
 
     public void adicionar(Tarefa tarefa){
-        this.tarefas.add(tarefa);
+        if(tarefa != null && tarefa.obterTamanhoTarefa() <= 20) {
+            this.tarefas.add(tarefa);
+        }else{
+            System.out.println("A tarefa é inválida");
+        }
     }
 
     public void remover(int posicao){

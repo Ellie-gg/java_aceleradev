@@ -11,7 +11,7 @@ public class Principal {
         System.out.println("minhas tarefas");
         System.out.println("-------------------");
         ListaTarefas tarefas = new ListaTarefas();
-        Tarefa tarefa1 = new Tarefa("Regar as plantas");
+        Tarefa tarefa1 = new Tarefa("Regar as plantas logo depois da hora do jantar");
         Tarefa tarefa2 = new Tarefa("Estudar");
         Tarefa tarefa3 = new Tarefa("Trabalhar");
         tarefas.adicionar(tarefa1);
